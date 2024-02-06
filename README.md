@@ -5,6 +5,6 @@ Temerature conversion functioanality
 Use below steps
 
 ```
-$ composer require ritesh295/tempconvrkprg
+composer require ritesh295/tempconvrkprg
 
 ```
