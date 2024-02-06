@@ -14,6 +14,9 @@ class TemperatureConverter
         } elseif ($unit === 'F') {
             $celsius = ($temperature - 32) * 5 / 9;
             return $celsius;
+        } elseif ($unit === 'N') {
+            $celsius = $temperature;
+            return $celsius;
         } else {
             //Throwing error if the unit provided is neither C nor F
             throw new \InvalidArgumentException('Invalid unit, only C (Celsius) or F (Fahrenheit) are allowed');
