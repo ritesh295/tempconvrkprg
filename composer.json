@@ -1,0 +1,19 @@
+{
+    "name": "ritesh295/tempconvrkprg",
+    "description": "Temerature conversion functioanality",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ritesh295\\Tempconvrkprg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ritesh Kumar",
+            "email": "ritesh295@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
