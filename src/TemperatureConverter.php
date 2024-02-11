@@ -17,6 +17,8 @@ class TemperatureConverter
         } elseif ($unit === 'N') {
             $celsius = $temperature;
             return $celsius;
+        } elseif ($unit === 'msg') {
+            return testmsg();
         } else {
             //Throwing error if the unit provided is neither C nor F
             throw new \InvalidArgumentException('Invalid unit, only C (Celsius) or F (Fahrenheit) are allowed');

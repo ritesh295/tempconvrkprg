@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Ritesh295\\Tempconvrkprg\\": "src/"
-        }
+        },
+        "files": [
+            "src/helper.php"
+        ]
     },
     "authors": [
         {
